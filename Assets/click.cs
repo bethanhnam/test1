@@ -19,7 +19,7 @@ public class click : MonoBehaviour
 	{
 		if (Input.GetKeyDown(KeyCode.K))
 		{
-			printItem();
+			printItem1();
 		}
 	}
 
@@ -32,7 +32,7 @@ public class click : MonoBehaviour
 	{
 		collectedItems.Remove(item);
 	}
-	private void printItem()
+	private void printItem1()
 	{
 		foreach(GameObject item in collectedItems)
 		{
