@@ -7,12 +7,16 @@ public class codemoi : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("len");
+        CallOut();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    public void CallOut()
+    {
+        Debug.Log("thu");
     }
 }
